@@ -3,3 +3,5 @@
 http://hlshinextra-lh.akamaihd.net/i/ams4_musicind@124573/index_1100_av.m3u8?e=e745d0932c6d36ab&hdnea=ip=124.197.50.67~st=1427274120~exp=1427274420~acl=*~data=0~hmac=ccb65cdb812846dfd3c6cd7e6d6c8611702b8dc8ff5a1f5443399810f625a359&attributes=off
 #EXTINF:0,Mtunes
 http://108.61.156.251/hls/mtunes.m3u8
+‪#‎EXTINF‬:-1,INDIA:9x Tashan
+rtsp://46.249.213.93/broadcast/9xmtashan-tablet.3gp
