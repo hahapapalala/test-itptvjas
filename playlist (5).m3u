@@ -7,3 +7,5 @@ http://108.61.156.251/hls/mtunes.m3u8
 http://cdn.ebound.tv:1935/tv/8xm/playlist.m3u8?wmsAuthSign=
 #EXTINF:-1 tvg-id=Teleantioquia" tvg-logo="teleantioquia.png" group-title="India TV", 9x Tashan
 rtsp://46.249.213.93/broadcast/9xmtashan-tablet.3gp
+#EXTINF:-1, Zoom
+ http://dittotv.live-s.cdn.bitgravity.com/cdn-live/_definst_/dittotv/secure/zoom_3G.smil/playlist.m3u8?e=1425278845&a=GB&h=e1407c35977bf112fa50666bb31f7ca0
