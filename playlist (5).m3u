@@ -1,5 +1,3 @@
 #EXTM3U
-#EXTINF:0,Mtunes
-http://hlshinextra-lh.akamaihd.net/z/ams4_mtunes@124572/1100_ec178c031f5afc96-p_Seg1-Frag239549699?hdntl=exp=1437384448~acl=%2fz%2fams4_mtunes%40124572%2f*~data=hdntl~hmac=d46301816e5d3b850b04e0382df30bf4f94049f915fa7e31dba403dfb9f2cea3&dw=7200&als=8.46,12,6.1,5,923,6018,25,32,0,53,f,7140.97,7152,t,s,SXXGHVKLRKHI,3.6.0,53&hdcore=3.6.0&plugin=jwplayer-3.6.0.0
-#EXTINF:0,9x Tashan
-http://edge.purplestream.com/live/9xtas/amlst:9xtsh/chunklist_b634000.m3u8?uuid=6769705539997772
+#EXTINF:0,MH1 News
+rtsp://edge-ind.inapcdn.in:1935/berry/sfmacb3.stream_aac?samitv.ga
