@@ -5,3 +5,5 @@ rtsp://edge-ind.inapcdn.in:1935/berry/sfmacb3.stream_aac?samitv.ga
 http://ibn7_hls-lh.akamaihd.net/i/ibn7_hls_n_1@174951/index_1_av-p.m3u8
 #EXTINF:0,Living India
 http://p.jwpcdn.com/6/6/jwplayer.flash.swf
+#EXTINF:0,Mtunes
+http://hlshinextra-lh.akamaihd.net/i/ams4_mtunes@124572/index_1100.m3u8
