@@ -1,0 +1,19 @@
+package homework_;
+
+import java.util.ArrayList;
+
+public class PersonHandler {
+
+	private static ArrayList<Person> listPersons;
+	public static ArrayList<Person> getPersons(){
+		if(listPersons==null){
+			listPersons = new ArrayList<Person>();
+			listPersons.add(new Person(1, "Jhon", "Doe"));
+			listPersons.add(new Person(2, "Jhony", "Doey"));
+			listPersons.add(new Person(3, "Jane", "Doe"));
+			listPersons.add(new Person(4, "Janey", "Doe"));
+			return listPersons;
+		}
+		return listPersons;
+	}
+}
