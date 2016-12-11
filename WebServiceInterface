@@ -1,0 +1,12 @@
+package homework_;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+@WebService
+public interface WebServiceInterface {
+	@WebMethod
+	String getPersonFirstName(int ID);
+	@WebMethod
+	String getPersonLastName(int ID);
+}
