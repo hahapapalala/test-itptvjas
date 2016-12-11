@@ -1,0 +1,11 @@
+package webservice;
+
+import javax.xml.ws.WebServiceRef;
+
+public class program {
+	@WebServiceRef(wsdlLocation="http://localhost:8080/homework_/services/impl?wsdl")
+	public static Impl service; 
+	public static void main(String[] args){
+		System.out.println(service.getPersonFirstName(1));
+	}
+}
