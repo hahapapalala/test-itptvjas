@@ -1,0 +1,20 @@
+package homework_;
+
+import java.util.ArrayList;
+
+import javax.jws.WebService;
+
+@WebService(endpointInterface = "homework_.WebServiceInterface")
+public class Impl implements WebServiceInterface{
+	@Override
+	public String getPersonFirstName(int id) {
+		ArrayList<Person> tmp = PersonHandler.getPersons();
+		return PersonHandler.getPersons().get(tmp.indexOf(new Person(id,"",""))).getFirstname();
+	}
+	@Override
+	public String getPersonLastName(int id) {
+		ArrayList<Person> tmp = PersonHandler.getPersons();
+		return PersonHandler.getPersons().get(tmp.indexOf(new Person(id,"",""))).getLastname();
+	}
+	
+}
